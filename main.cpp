@@ -21,9 +21,9 @@ const int mqtt_port = 1883;                     // Porta padrão MQTT
 
 // Como o HiveMQ é público, outras pessoas podem ver seus dados
 // Use um identificador único (url do trabalho)
-const char* topic_temperature = "";
-const char* topic_humidity = "";
-const char* topic_status = "";
+const char* topic_temperature = "graduacao/iot/grupo_3/temperatura";
+const char* topic_humidity = "graduacao/iot/grupo_3/umidade";
+const char* topic_status = "graduacao/iot/grupo_3/status";
 
 // ===== CONFIGURAÇÕES DHT =====
 #define DHTPIN 2        // GPIO2 = D4
